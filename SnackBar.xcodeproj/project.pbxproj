@@ -53,37 +53,13 @@
 		1686BE201FCC14D30021A7E7 /* SnackBar */ = {
 			isa = PBXGroup;
 			children = (
-				1686BE3A1FCC16C90021A7E7 /* Views */,
-				1686BE351FCC161F0021A7E7 /* Managers */,
+				1686BE3D1FCC16DE0021A7E7 /* SnackBarView.swift */,
+				1686BE3C1FCC16DE0021A7E7 /* SnackBarView.xib */,
+				1686BE361FCC16690021A7E7 /* SnackBar.swift */,
 				1686BE211FCC14D30021A7E7 /* SnackBar.h */,
 				1686BE221FCC14D30021A7E7 /* Info.plist */,
 			);
 			path = SnackBar;
-			sourceTree = "<group>";
-		};
-		1686BE351FCC161F0021A7E7 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				1686BE361FCC16690021A7E7 /* SnackBar.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		1686BE3A1FCC16C90021A7E7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1686BE3B1FCC16D20021A7E7 /* CustomViews */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		1686BE3B1FCC16D20021A7E7 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				1686BE3D1FCC16DE0021A7E7 /* SnackBarView.swift */,
-				1686BE3C1FCC16DE0021A7E7 /* SnackBarView.xib */,
-			);
-			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
