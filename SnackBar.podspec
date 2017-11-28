@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SnackBar"
   s.version      = "1.0.0"
-  s.summary      = "A snacker to show message like in android."
+  s.summary      = "A snackbar to show message like in android."
 
   s.description  = "The snackbar is a completely customizable widget that can be used    in any iOS app."
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :path => '.' }
+  s.source       = { :git => "https://github.com/sahil-cci/SnackBar.git", :tag => "1.0.0" }
 
   s.source_files  = "SnackBar", "SnackBar/**/*.{h,m, swift}"
 
