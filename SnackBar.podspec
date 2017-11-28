@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
 s.name         = "SnackBar"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "A snackbar to show message like in android."
 
-s.description  = "The snackbar is a completely customizable widget that can be used    in any iOS app."
+s.description  = "The snackbar is a completely customizable widget that can be used in any iOS app."
 
-s.homepage     = "http://raywenderlich.com"
+s.homepage     = "https://www.creativecapsule.com"
 
 s.license      = "MIT"
 
@@ -22,10 +22,10 @@ s.author             = { "Sahil Naik" => "sahil.naik@creativecapsule.com" }
 
 s.platform     = :ios, "10.0"
 
-s.source       = { :git => "https://github.com/sahil-cci/SnackBar.git", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/anant-cci/SnackBar.git", :tag => "1.0.1" }
 
 s.source_files  = "SnackBar", "SnackBar/**/*.{h,m,swift,xib}"
 
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 
 end
