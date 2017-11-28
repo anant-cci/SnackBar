@@ -22,7 +22,7 @@ s.author             = { "Sahil Naik" => "sahil.naik@creativecapsule.com" }
 
 s.platform     = :ios, "10.0"
 
-s.source       = { :path => '.' }
+s.source       = { :git => "https://github.com/sahil-cci/SnackBar.git", :tag => "1.0.0" }
 
 s.source_files  = "SnackBar", "SnackBar/**/*.{h,m,swift,xib}"
 
