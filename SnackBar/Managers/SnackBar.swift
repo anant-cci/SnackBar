@@ -11,10 +11,19 @@ import UIKit
 public class SnackBar: NSObject {
     private static let snackBarHeight: CGFloat = 75.0
 
-    static public func show(message: String , view: UIView) {
+    static public func show(message: String, textColor: UIColor?, backgroundColor: UIColor?, view: UIView) {
         let bundle = Bundle(identifier: "com.cci.SnackBar")
         let snackBarView = bundle?.loadNibNamed("SnackBarView", owner: self, options: nil)?.first as! SnackBarView
         snackBarView.mainLabel.text = message
+        
+        if let txtColor = textColor {
+            snackBarView.mainLabel.textColor = txtColor
+        }
+        
+        if let bgColor = backgroundColor {
+            snackBarView.backgroundColor = bgColor
+        }
+        
         let vWindow = UIApplication.shared.keyWindow
         snackBarView.frame = CGRect(x: 0, y: view.frame.size.height , width: view.frame.size.width, height: self.snackBarHeight)
         
